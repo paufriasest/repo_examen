@@ -1,8 +1,6 @@
 import csv
 import random
 
-# Matryoshka2045
-
 trabajadores = [
     {
         "Nombre": "Juan Perez",
@@ -169,7 +167,8 @@ try:
     
     def menu():
         menu = int(input("""
-                        ---------------- Menú ----------------
+                        ﹉﹉﹉﹉﹉﹉﹉୨♡୧﹉﹉﹉﹉﹉﹉﹉﹉
+                                ୨୧ ꒰ Menú ꒱ ୨୧
                         1. Asignar sueldos aleatorios
                         2. Clasificar sueldos
                         3. Ver estadísticas
@@ -177,6 +176,7 @@ try:
                         5. Salir del programa
                         
                         Ingrese una opción:
+                        ﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍
                         """))
         return menu
 
@@ -185,21 +185,31 @@ try:
         op = menu()
         
         if op == 1:
-            print("---------------- Asignar sueldos aleatorios ----------------")
+            print("⊹ ࣪ ˖₊˚⊹⋆ Asignar sueldos aleatorios ⊹ ࣪ ˖₊˚⊹⋆")
             asignar_sueldos()
         elif op == 2:
-            print("---------------- Clasificar sueldos ----------------")
+            print("⊹ ࣪ ˖₊˚⊹⋆ Clasificar sueldos ⊹ ࣪ ˖₊˚⊹⋆")
             clasificar_sueldos()
         elif op == 3:
-            print("---------------- Ver estadisticas ----------------")
+            print("⊹ ࣪ ˖₊˚⊹⋆ Estadísticas ⊹ ࣪ ˖₊˚⊹⋆")
             estadisticas()
         elif op == 4:
-            print("---------------- Reporte de sueldos ----------------")
+            print("⊹ ࣪ ˖₊˚⊹⋆ Reporte de sueldos ⊹ ࣪ ˖₊˚⊹⋆")
             reporte_de_sueldos()
         elif op == 5:
             print("Finalizando programa...")
-            print("Desarrollado por Paula Frías")
+            print("Desarrollado por Paula Frías Navarro")
             print("RUT 20.458.065-0")
+            print(""" 
+    ∧＿∧
+　 (｡･ω･｡)つ━☆・*。
+  ⊂/　 /　       ・゜
+　しーＪ　　　     °。+ * 。　
+　　　　　                  .・゜
+　　　　　                     ｡ﾟﾟ･｡･ﾟﾟ。
+　　　　                     　ﾟ。　  ｡ﾟ
+                               　ﾟ･｡･ﾟ 
+                  """)
             break
         else: print("Ingrese una opción válida del menú")
 
